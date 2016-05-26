@@ -1,0 +1,37 @@
+Git/Github important commands
+
+http://blog.udacity.com/2015/06/a-beginners-git-github-tutorial.html
+
+git init
+Initializes local subdirectory for git repository
+
+git clone <repository URL>
+Pulls copy of repository at URL
+
+git status
+Status of repository
+
+git add <filename>
+Stages filename for git (makes it committable)
+
+git config --global core.editor <your app's name>
+Sets editor (nano, vi, vim, whatever)
+
+git commit
+Commits changes
+
+git log
+List of changes in reverse chronological order
+
+git log --oneline
+One line change list
+
+(Figure out of there is a way to add a repository in GitHub via command line)
+
+echo "# howto" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/dlhawe/howto.git
+git push -u origin master
+
