@@ -1,0 +1,17 @@
+cd
+Change directory
+
+mkdir
+Make directory
+
+mv
+Move (use to rename also, e.g. mv name1 name2)
+
+rmdir
+Remove directory (must be empty)
+
+sudo
+Run with admin privs
+
+top
+list of processes, memory, etc
