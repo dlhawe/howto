@@ -1,3 +1,6 @@
+
+Basic Commands
+
 cd
 Change directory
 
@@ -15,3 +18,18 @@ Run with admin privs
 
 top
 list of processes, memory, etc
+
+
+
+Debian-specific (Ubuntu)
+
+apt-get install <package>
+Installs specific package (needs sudo)
+
+apt-get update
+Updates package list with most recent officially supported version (needs sudo)
+
+apt-get upgrade
+Upgrades packages (requires sudo)
+
+
